@@ -14,9 +14,6 @@ import static org.junit.Assert.assertEquals;
 
 public class MainClassTest {
 
-    @Rule
-    public MockitoRule rule = MockitoJUnit.rule();
-
     @InjectMocks
     MainClass mainClass;
 
