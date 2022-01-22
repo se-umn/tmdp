@@ -10,6 +10,9 @@ import org.mockito.Mockito;
 
 public class MockitoExperimentTest {
 
+    @Rule
+    public MockitoRule rule = org.mockito.junit.MockitoJUnit.rule();
+
     @Before
     public void setUp(){
         System.out.println("before");
